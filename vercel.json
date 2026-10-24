@@ -1,5 +1,5 @@
 {
   "headers": [
-    { "source": "/juego/(.*)\\.(wasm|pck)", "headers": [ { "key": "Cache-Control", "value": "public, max-age=604800" } ] }
+    { "source": "/juego/(.*)", "headers": [ { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" } ] }
   ]
 }
